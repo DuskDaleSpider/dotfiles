@@ -1,0 +1,7 @@
+#brightness
+
+"sudo xbacklight +10"
+    XF86MonBrightnessUp
+
+"sudo xbacklight -10"
+    XF86MonBrightnessDown
