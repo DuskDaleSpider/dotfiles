@@ -135,7 +135,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 
-set $Locker i3lock -i ~/Pictures/Backgrounds/background.png && sleep 1
+set $Locker i3lock -i ~/Pictures/Backgrounds/lock-screen.png && sleep 1
 
 set $mode_system System (l) lock, (e) logout, (r) reboot, (s) shutdown
 mode "$mode_system" {
